@@ -1,0 +1,349 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* header */
+
+.header {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #f8774a;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* menu */
+
+.main {
+  padding: 60px 40px;
+  background-color: #000000;
+}
+
+.main h1 {
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+/* menu no oya */
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* nemu no ko */
+.menu1,
+.menu2,
+.menu3 {
+  position: relative;
+  margin: 0 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-img {
+  object-fit: cover;
+  width: 300px;
+  height: 140px;
+}
+
+.menu1-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(.jpg);
+  width: 300px;
+  height: 140px;
+}
+
+.menu2-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(.jpg);
+  width: 300px;
+  height: 140px;
+}
+
+.menu3-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(.jpg);
+  width: 300px;
+  height: 140px;
+}
+
+.menu-title {
+  position: absolute;
+  top: 27px;
+  left: 23px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+.menu-msg {
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 255px / 2 + 0.5px);
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* about */
+.about {
+  padding: 60px 40px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about1,
+.about2 {
+  margin: 0 10px;
+  width: 100%;
+}
+
+.about2 {
+  margin-left: 45px;
+}
+
+.about1 img {
+  /* background-image: url(/img/about.jpg); */
+  /* background-size: cover; */
+  width: 100%;
+  height: auto;
+}
+
+.about-title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  /* text-align: left; */
+}
+
+.about-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.about-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-list ul {
+  padding-left: 0px;
+}
+
+.list-text-wrap {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-text::before {
+  content: ""; /* 空の要素を作成 */
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: #f8774a;
+  border-radius: 50%;
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+}
+
+/* flow */
+
+.flow {
+  padding: 60px 40px;
+  background-color: #000000;
+}
+
+.flow h1 {
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+/* flow no oya */
+.flow-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* flow no ko */
+.flow1,
+.flow2,
+.flow3 {
+  margin: 0 10px;
+  padding: 30px 0;
+  background: #ffffff;
+}
+
+.flow-img {
+  object-fit: cover;
+  width: 300px;
+}
+
+.flow-title {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f8774a;
+}
+
+.flow-msg {
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* contact */
+
+.contact {
+  padding: 60px 50px;
+  margin: auto;
+  color: #333333;
+}
+
+.contact h1 {
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.contact p {
+  color: #808080;
+}
+
+/* mail no oya */
+.mail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mail-container button {
+  border-radius: 5px;
+  width: 343px;
+  height: 50px;
+  left: 348px;
+  top: 446px;
+  background: #f8774a;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+}
+
+.mail-box {
+  padding: 0.5em 1em;
+  border: solid 2px #cacaca;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.mail-text {
+  margin: 0 0 5px 0;
+}
+
+.mail-box p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.mail2 {
+  margin-top: 20px;
+}
+
+/* footer */
+
+.footer {
+  padding: 60px 40px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 5px;
+}
+
+.snsbtniti {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.snsbtn img {
+  width: 50px;
+  height: 50px;
+}
+
+.snsbtn {
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.footer p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}

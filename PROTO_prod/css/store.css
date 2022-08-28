@@ -1,0 +1,160 @@
+/* store */
+.store {
+  padding: 25px 0;
+  background: #888888;
+}
+
+.storeContainer {
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+
+.storeImg {
+  width: 20%;
+}
+
+.storeImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.storeMsg {
+  margin-left: 50px;
+}
+
+.storeMsg h1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.storeMsg p {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* menu */
+.menu {
+  padding: 40px 0;
+  width: 60%;
+  margin: auto;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu h1 {
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.menuHako {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.menuImg {
+  width: 25%;
+}
+
+.menuImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.menuMsg {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.menuMsg h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.menuSub {
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.menuPrice {
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.fa-plus {
+  color: #f8774a;
+}
+
+.menuPlus {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* map */
+.map h1 {
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.mapContainer {
+  width: 60%;
+  margin: auto;
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: 100%;
+}
+
+/* cart */
+.cart {
+  padding: 40px 0;
+  width: 60%;
+  margin: auto;
+}
+
+.cartContainer {
+  text-align: center;
+}
+
+.cartButton {
+  width: 100%;
+  padding: 15px 155px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  line-height: 1;
+  color: #ffffff;
+  background: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.cartButton:hover {
+  opacity: 0.5;
+}

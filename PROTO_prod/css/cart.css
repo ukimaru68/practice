@@ -1,0 +1,36 @@
+/* cart */
+.cart {
+  padding: 30px 0;
+}
+
+.cartContainer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.cartData {
+  margin-left: 50px;
+}
+
+.cartData h1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.cartData p {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+hr {
+  width: 60%;
+  margin: auto;
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #cacaca;
+}

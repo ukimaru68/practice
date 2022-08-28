@@ -1,0 +1,17 @@
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    margin:  0 auto;
+    background-image: url(../img/Tomita.jpeg);
+    background-size: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.hokamura {
+    background-image: url(../img/Hokamura.jpeg);
+}

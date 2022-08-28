@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <title>PROTO_tojima</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header hidden" id="changeHeader">
+      <div>
+        <img src="img/Logo_protopizza.png" alt="header-logo" />
+      </div>
+      <button type="button" id="signupButton1">会員登録</button>
+    </div>
+    <section class="hero"></section>
+
+    <!-- mask -->
+    <div id="mask" class="hidden"></div>
+
+    <!-- signup -->
+    <section id="signupModal" class="hidden">
+      <h1>会員登録</h1>
+      <form action="">
+        <div class="signupInput">
+          <input type="text" class="signupText" placeholder=" メールアドレス" />
+          <input type="text" class="signupText" placeholder=" パスワード" />
+          <input
+            type="text"
+            class="signupText"
+            placeholder=" パスワード（確認用）"
+          />
+          <button type="button" id="signupButton1" class="signupBtn1">
+            会員登録
+          </button>
+          <button type="button" id="loginButton" class="signupBtn2">
+            ログイン
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- login -->
+    <section id="loginModal" class="hidden">
+      <h1>PROTO PIZZA</h1>
+      <form action="">
+        <div class="loginInput">
+          <input type="text" class="loginText" placeholder=" メールアドレス" />
+          <input type="text" class="loginText" placeholder=" パスワード" />
+          <div class="loginCheck">
+            <input type="checkbox" id="loginCheckbox" name="mailCheck" /><label
+              for="mailCheck"
+              >メールアドレスを保存する</label
+            >
+          </div>
+          <a href="" id="passwordButton">パスワードをお忘れですか？</a>
+          <button type="button" id="loginButton" class="signupBtn1">
+            ログイン
+          </button>
+          <button type="button" id="signupButton2" class="signupBtn2">
+            会員登録
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- reset password -->
+    <section id="passwordModal" class="hidden">
+      <h1>パスワードの再設定</h1>
+      <p>
+        パスワード変更URLを送ります。メールアドレスを入力し、「リンクを送る」ボタンを押してください。入力されたメールアドレスへパスワード変更URLを添付します。
+      </p>
+      <form action="">
+        <div class="passwordInput">
+          <input
+            type="text"
+            class="passwordText"
+            placeholder=" メールアドレス"
+          />
+          <button type="button" id="linkButton" class="signupBtn1">
+            リンクを送る
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- main -->
+    <section class="main">
+      <h1>PROTOのイチオシ！</h1>
+      <div class="container mainContainer">
+        <div class="menu1">
+          <div class="menuImg1"></div>
+          <img src="img/menu_01.jpg" class="menuImg" alt="menu01" />
+          <h2 class="menuTitle">マルゲリータ</h2>
+          <p class="menuMsg">
+            たっぷりモッツァレラとバジルのコンビ<br />ネーションがたまらない！
+          </p>
+        </div>
+        <div class="menu2">
+          <div class="menuImg2"></div>
+          <img src="img/menu_02.jpg" class="menuImg" alt="menu02" />
+          <h2 class="menuTitle">クアトロフォルマッジョ</h2>
+          <p class="menuMsg">
+            4種類のチーズをふんだんにトッピン<br />グ、最高のチーズの香り！！
+          </p>
+        </div>
+        <div class="menu3">
+          <div class="menuImg3"></div>
+          <img src="img/menu_03.jpg" class="menuImg" alt="menu03" />
+          <h2 class="menuTitle">プロト・スペシャル</h2>
+          <p class="menuMsg">
+            能登の新鮮な野菜とシーフード、仕事終<br />わりのご褒美ならコレ！！
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about">
+      <div class="container aboutContainer">
+        <div class="aboutImg">
+          <img src="/img/about.jpg" alt="aboutImg" />
+        </div>
+        <div class="aboutMsg">
+          <p class="aboutTitle">
+            駅近コミュニティスペース<br />
+            <span>PROTO PIZZA CO-AND</span>店が<br />
+            ついにオープン
+          </p>
+          <p class="aboutText">
+            仕事も食事も楽しめるコミュニティスペースはCO-AND<br />
+            だけ、ひとりで食べていてはもったいない！<br />
+            Eat together, grow together.
+          </p>
+          <div class="aboutText">
+            <div class="aboutCheck">
+              <!-- <li>
+                  <img src="/img/icon.png" alt="" />
+                </li> -->
+              <span class="fa-stack fa-1.5x">
+                <i class="fas fa-circle fa-stack-2x fas2"></i>
+                <i class="fas fa-check fa-stack-1x"></i>
+              </span>
+              <p>北陸史上最高のオリジナルピザをご用意</p>
+            </div>
+            <div class="aboutCheck">
+              <span class="fa-stack fa-1.5x">
+                <i class="fas fa-circle fa-stack-2x fas2"></i>
+                <i class="fas fa-check fa-stack-1x"></i>
+              </span>
+              <p>一度に100枚までご注文可能</p>
+            </div>
+            <div class="aboutCheck">
+              <span class="fa-stack fa-1.5x">
+                <i class="fas fa-circle fa-stack-2x fas2"></i>
+                <i class="fas fa-check fa-stack-1x"></i>
+              </span>
+              <p>JR金沢駅から徒歩8分の好立地</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- flow -->
+    <section class="flow">
+      <h1>オンラインで簡単予約</h1>
+      <div class="container flowContainer">
+        <div class="flowCover">
+          <img src="img/flow_01.png" alt="flow01" />
+          <h2 class="flowTitle">1. メニューを選択</h2>
+          <p class="flowText">好きな商品を好きなだけ選びましょう</p>
+        </div>
+        <div class="flowCover">
+          <img src="img/flow_02.png" alt="flow02" />
+          <h2 class="flowTitle">2. ご注文 & お支払い</h2>
+          <p class="flowText">クレジットカードでお支払いできます</p>
+        </div>
+        <div class="flowCover">
+          <img src="img/flow_03.png" alt="menu03" />
+          <h2 class="flowTitle">3. 出来上がり時間を確認</h2>
+          <p class="flowText">あとは時間に合わせて来店するだけ！</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact">
+      <h1>お問い合わせ</h1>
+      <div class="container mailContainer">
+        <form action="">
+          <label for="mail">メールアドレス</label>
+          <input
+            type="mail"
+            id="mail"
+            name="your-mail"
+            class="mailBox"
+            placeholder="masaru.hokamura@localventure.co.jp"
+          />
+          <label for="message">お問い合わせ内容</label>
+          <textarea
+            name="your-message"
+            id="message"
+            class="mailBox textareaRow"
+            placeholder="プロトピザの一番のおすすめは何ですか？&#13;&#10;22時にピザを食べたいのですが、お店は何時まで開いていますか？"
+          ></textarea>
+          <br />
+          <div class="formButton">
+            <button type="button" id="mailButton" class="mailBtn">送信</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="container footerContainer">
+        <div>
+          <a href="" class="footerLink">よくある質問</a>
+        </div>
+        <div>
+          <a href="" class="footerLink">利用規約</a>
+        </div>
+        <div>
+          <a href="" class="footerLink">アルバイト募集</a>
+        </div>
+        <div>
+          <a href="" class="footerLink">会社概要</a>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div class="snsBtn">
+            <a href="">
+              <span class="fa-stack fa-1.5x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="">
+              <span class="fa-stack fa-1.5x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="">
+              <span class="fa-stack fa-1.5x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p>Copyright PROTO PIZZA All Rights Reserved.</p>
+    </section>
+    <script type="module" src="/js/index.js"></script>
+  </body>
+</html>

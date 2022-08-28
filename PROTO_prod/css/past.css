@@ -1,0 +1,17 @@
+/* past */
+.past {
+  padding: 60px 50px;
+  color: #333333;
+}
+
+.pastContainer {
+  width: 60%;
+  margin: auto;
+}
+
+.past h1 {
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 40px;
+}

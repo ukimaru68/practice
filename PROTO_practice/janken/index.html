@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>しゃんけんげーむ</title>
+  </head>
+  <body>
+    <!-- header -->
+    <section class="header">
+      <div class="headerTitle">
+        <h1>じゃんけんげーむ</h1>
+      </div>
+    </section>
+
+    <div class="janken">
+      <!-- prayer -->
+      <div class="user">
+        <div class="name">
+          <h2>ぷれいやー：ゆきちゃん。</h2>
+        </div>
+        <div class="img">
+          <img src="/img/janken_0.png" alt="" id="prayerImg" />
+        </div>
+      </div>
+
+      <div class="vs">
+        <h2>VS</h2>
+      </div>
+
+      <!-- computer -->
+      <div class="user">
+        <div class="name">
+          <h2>こんぴゅーた：じゃんけんまじん</h2>
+        </div>
+        <div class="img">
+          <img src="/img/janken_0.png" alt="" id="comImg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section>
+      <div class="about">
+        <div>
+          <p>ぷれいやーせれくと：</p>
+        </div>
+        <div class="prayerJanken prayerJan">
+          <select name="prayerJanken" id="prayerJanken" class="">
+            <option value="0" selected>ぐー</option>
+            <option value="1">ちょき</option>
+            <option value="2">ぱー</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" id="startButton" class="startButton">
+        じゃんけんすたーと
+      </button>
+    </section>
+
+    <!-- result -->
+    <section class="result">
+      <div class="result">
+        <h1 id="resultText"></h1>
+      </div>
+    </section>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

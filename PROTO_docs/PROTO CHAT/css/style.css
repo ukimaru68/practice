@@ -1,0 +1,15 @@
+#chat li {
+  list-style: none;
+  width: 375px;
+  margin-bottom: 10px;
+}
+.chatUserName {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+}
+.chatText {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 5px;
+}

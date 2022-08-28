@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>PROTP CHAT</title>
+  </head>
+  <body>
+    <!-- データの入力 -->
+    <form id="form" autocomplete="off">
+      <div>
+        <label for="user_name">名前：</label>
+        <input type="text" id="user_name" />
+      </div>
+      <div>
+        <label for="text">メッセージ：</label>
+        <input id="text" type="text" />
+      </div>
+      <button id="send">送信</button>
+    </form>
+    <!-- データの表示 -->
+    <ul id="chat"></ul>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

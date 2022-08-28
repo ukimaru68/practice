@@ -1,0 +1,46 @@
+/* pw */
+#pwModal {
+  background: #ffffff;
+  width: 320px;
+  padding: 20px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#pwModal h1 {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pwInput {
+  display: flex;
+  flex-flow: column;
+}
+
+.pwInput input {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-sizing: border-box; /* 横幅の解釈をpadding, borderまでとする */
+}
+
+.pwText {
+  border: 0.5px #cacaca solid;
+}
+
+.pwBtn1 {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #f8774a;
+  line-height: 1;
+  color: #ffffff;
+  background: #f8774a;
+  box-sizing: border-box;
+}

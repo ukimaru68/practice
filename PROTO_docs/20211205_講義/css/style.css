@@ -1,0 +1,97 @@
+section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 16px 50px;
+}
+
+.hero {
+  /* background-color: #cacaca; */
+  height: 720px;
+  background-image: url("../img/proto_hero.jpeg");
+  background-size: cover;
+}
+
+.hero .container {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: 400;
+  margin-top: 150px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: white;
+}
+
+.message-img {
+  /* background-color: #cacaca; */
+  height: 300px;
+  width: 49%;
+  text-align: center;
+}
+
+.message1 .message-img img {
+  height: 100%;
+}
+
+.message2 .message-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.message1 .message-text {
+  width: 49%;
+  margin-left: 20px;
+  padding-left: 50px;
+}
+
+.message2 .message-text {
+  width: 49%;
+  margin-right: 50px;
+}
+
+.message1,
+.message2 {
+  display: flex;
+  margin-bottom: 60px;
+}
